@@ -19,4 +19,4 @@ The article is intended for those unfamiliar with Ruby or just starting out. Fee
 
 ## License
 
-The source code contained in this repository is provided under the MIT license. See LICENSE for more information.
+The source code contained in this repository is provided under the MIT license. See [LICENSE](https://github.com/subdigital/beer-lookup/blob/master/LICENSE) for more information.

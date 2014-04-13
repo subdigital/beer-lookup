@@ -1,0 +1,104 @@
+body {
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-family: 'Avenir Next', 'Helvetica', sans-serif;
+  color: #444;
+}
+
+a:link, a:visited {
+  color: #A33;
+}
+
+a:hover, a:active {
+  color: #E44;
+}
+
+header {
+  font-weight: bold;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  padding: 18px;
+}
+
+#content {
+  padding: 20px;
+  padding-top: 0;
+  width: 600px;
+  margin: auto;
+  text-align: center;
+}
+
+
+form#beer-search {
+  margin-bottom: 2em;
+}
+
+input.search {
+  padding: 8px;
+  font-size: 1.8em;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  border: solid 1px #777;
+  text-indent: 18px;
+  background-color: #fff;
+}
+
+input.search:focus {
+  border: solid 1px #111;
+  background-color: #efefef;
+  outline: none;
+}
+
+#results ul {
+  margin: 20px;
+  list-style-type: none;
+}
+
+#results li {
+  min-height: 100px;
+  margin-bottom: 20px;
+}
+
+.beer {
+  clear: left;
+  text-align: left;
+}
+
+.beer .noimg {
+  width: 100px;
+  height: 100px;
+  background-color: #ddd;
+  float: left;
+}
+
+.beer img {
+  width: 100px;
+  float: left;
+  margin-right: 12px;
+}
+
+.beer span.name {
+  margin-left: 120px;
+  font-size: 1.1em;
+  font-weight: bold;
+  display: block;
+}
+
+.beer span.description {
+  display: block;
+  font-size: 0.8em;
+  margin-left: 120px;
+}
+
+footer {
+  color: #888;
+  font-size: 0.9em;
+  text-align: center;
+  margin-top: 5em;
+  margin-bottom: 1em;
+}
